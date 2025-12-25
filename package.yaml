@@ -42,7 +42,6 @@ dependencies:
 - hint
 - Cabal
 - show
-- extensible-exceptions
 - simple-reflect
 - QuickCheck
 

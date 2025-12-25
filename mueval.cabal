@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.35.2.
+-- This file has been generated from package.yaml by hpack version 0.39.1.
 --
 -- see: https://github.com/sol/hpack
 
@@ -44,7 +44,6 @@ library
     , base >=4.5 && <5
     , containers
     , directory
-    , extensible-exceptions
     , filepath
     , hint
     , mtl
@@ -67,7 +66,6 @@ executable mueval
     , base >=4.5 && <5
     , containers
     , directory
-    , extensible-exceptions
     , filepath
     , hint
     , mtl
@@ -92,7 +90,6 @@ test-suite mueval-test
     , base >=4.5 && <5
     , containers
     , directory
-    , extensible-exceptions
     , filepath
     , hint
     , mtl

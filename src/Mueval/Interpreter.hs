@@ -4,7 +4,7 @@
 -- TODO: suggest the convenience functions be put into Hint proper?
 module Mueval.Interpreter where
 
-import qualified Control.Exception.Extensible as E (SomeException (..), catch, evaluate)
+import qualified Control.Exception as E (SomeException (..), catch, evaluate)
 import Control.Monad (forM_, guard, mplus, unless, when)
 import Control.Monad.Trans (MonadIO)
 import Control.Monad.Writer (runWriterT, tell)
